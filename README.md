@@ -9,14 +9,14 @@ Part of the grade was given according to how well the classifier suceeded when c
 ## The data sets
 
 ### Expressions
-1O8 60x70 images of faces represented by a vector of size 4200 containing greyscale values of each pixel.
+108 60x70 images of faces represented by a vector of size 4200 containing greyscale values of each pixel.
 Each image is labeled with the corresponding facial expression among : joy, surprise, dasness, digust, anger, fear.
 
 ### Characters
 10000 training vectors of 16 features pre-processed from images of characters from A to Z labelled by the corresponding letter.
 
 ### Speech
-2250 : of 256 pre-processed features extracted from recording each time a different variation of speaker and phoneme.
+2250 training vectors of 256 pre-processed features extracted from recording each time a different variation of speaker and phoneme.
 Labelled by the corresponding phoneme : "sh" (**sh**e), "del" (**d**ark), "iy" (sh**e**), "aa" (d**a**rk), "ao" (w**a**ter).
 
 ## Files and results
